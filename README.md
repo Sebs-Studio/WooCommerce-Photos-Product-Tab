@@ -1,11 +1,19 @@
 === WooCommerce Photos Product Tab ===
+
 Contributors: sebd86
+
 Donate link: http://www.sebs-studio.com/donation/
+
 Tags: woocommerce, photos, images, extension, gallery, tab
+
 Requires at least: 3.3.0
+
 Tested up to: 3.5.1
+
 Stable tag: trunk
+
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Extends WooCommerce to allow you to display all images attached to a Product in a new tab on the single product page.
