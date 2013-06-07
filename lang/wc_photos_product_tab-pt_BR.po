@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Photos Product Tab\n"
+"POT-Creation-Date: 2013-03-15 02:58+0100\n"
+"PO-Revision-Date: 2013-04-03 16:13-0300\n"
+"Last-Translator: Johnny Bauer <thankamikase@yahoo.com.br>\n"
+"Language-Team: Johnny Bauer <thankamikase@yahoo.com.br>\n"
+"Language: Portugues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:66
+msgid "Photos Product Tab"
+msgstr "Aba de Fotos dos Produtos"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:72
+msgid "Size of Photos"
+msgstr "Tamanho das Fotos"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:73
+msgid "What size would you like to display ?"
+msgstr "Qual tamanho você gostaria de exibir?"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:77
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:78
+msgid "Medium"
+msgstr "Médio"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:79
+msgid "Large"
+msgstr "Grande"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:80
+msgid "Full / Original"
+msgstr "Inteiro / Original"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:85
+msgid "Enable Lightbox"
+msgstr "Habilita Lightbox"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:86
+msgid "Enable WooCommerce lightbox for photos in the tab"
+msgstr "Habilita o Lightbox do WooCommerce para fotos na aba"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:131
+msgid "Donate"
+msgstr "Faça uma doação"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:132
+msgid "More WooCommerce Extensions"
+msgstr "Mais extensões para WooCommerce"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:162
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:185
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:215
+msgid "Photos"
+msgstr "Fotos"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:260
+msgid "Disable photos tab?"
+msgstr "Desabilita aba de fotos?"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:281
+msgid ""
+"requires <a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank"
+"\">WooCommerce</a> to be activated in order to work. Please install and "
+"activate <a href=\""
+msgstr ""
+"Requer que o <a href=\"http://www.woothemes.com/woocommerce/\" target="
+"\"_blank\">WooCommerce</a> esteja ativado para funcionar. Por favor instale "
+"e ative <a href=\""

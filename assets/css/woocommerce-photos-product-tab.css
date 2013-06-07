@@ -1,0 +1,20 @@
+/**
+ * WooCommerce Photos Product Tab
+ *
+ * Author: Seb's Studio
+ * Author URL: http://www.sebs-studio.com
+ * Plugin URL: http://wordpress.org/extend/plugins/woocommerce-photos-product-tab/
+ * Version: 2.0
+ */
+
+#tab-photos ul{
+	list-style: none;
+	min-height: 150px;
+	width: 100%;
+}
+
+#tab-photos ul li{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
