@@ -1,4 +1,5 @@
 # WooCommerce Photos Product Tab
+
 Contributors: sebd86
 Tags: ecommerce, e-commerce, commerce, sebs studio, woocommerce, photos, images, extension, gallery, product, tab
 Donate link: http://www.sebs-studio.com/donation/
