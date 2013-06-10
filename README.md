@@ -62,6 +62,10 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 ## Changelog
 
+__2.1.1 - 10/06/2013__
+
+* Added - French translation by Seb's Studio.
+
 __2.1 - 08/04/2013__
 
 * Added - Brazilian Portuguese translation by Johnny Bauer.
