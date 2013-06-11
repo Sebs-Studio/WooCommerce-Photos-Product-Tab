@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Photos Product Tab\n"
+"POT-Creation-Date: 2013-03-15 02:58+0100\n"
+"PO-Revision-Date: 2013-06-10 14:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: Seb's Studio <sebastien@sebs-studio.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:66
+msgid "Photos Product Tab"
+msgstr "Photos Tab du produit"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:72
+msgid "Size of Photos"
+msgstr "Taille des photos"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:73
+msgid "What size would you like to display ?"
+msgstr "Quelle taille voulez-vous afficher?"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:77
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:78
+msgid "Medium"
+msgstr ""
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:79
+msgid "Large"
+msgstr "Grand"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:80
+msgid "Full / Original"
+msgstr "Plein / Original"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:85
+msgid "Enable Lightbox"
+msgstr "Activer la Lightbox"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:86
+msgid "Enable WooCommerce lightbox for photos in the tab"
+msgstr "Activer WooCommerce lightbox pour les photos dans l'onglet"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:131
+msgid "Donate"
+msgstr "Faire un don"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:132
+msgid "More WooCommerce Extensions"
+msgstr "Plus Extensions WooCommerce"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:162
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:185
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:215
+msgid "Photos"
+msgstr ""
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:260
+msgid "Disable photos tab?"
+msgstr "Désactiver onglet photos?"
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:281
+msgid ""
+"requires <a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank"
+"\">WooCommerce</a> to be activated in order to work. Please install and "
+"activate <a href=\""
+msgstr ""
+"nécessite <a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank"
+"\">WooCommerce</a> pour être activée afin de travailler. S'il vous plaît "
+"installer et activer <a href=\""
