@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce Photos Product Tab\n"
-"POT-Creation-Date: 2013-03-15 02:58+0100\n"
-"PO-Revision-Date: 2013-03-15 02:58+0100\n"
+"POT-Creation-Date: 2013-06-13 13:11+0100\n"
+"PO-Revision-Date: 2013-06-13 13:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Seb's Studio <sebastien@sebs-studio.com>\n"
 "Language: English\n"
@@ -14,74 +14,84 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:66
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:71
 msgid "Photos Product Tab"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:72
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:77
 msgid "Size of Photos"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:73
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:78
 msgid "What size would you like to display ?"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:77
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:82
 msgid "Thumbnail"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:78
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:83
 msgid "Medium"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:79
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:84
 msgid "Large"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:80
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:85
 msgid "Full / Original"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:85
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:90
 msgid "Enable Lightbox"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:86
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:91
 msgid "Enable WooCommerce lightbox for photos in the tab"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:131
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:135
+msgid "Docs"
+msgstr ""
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:136
+msgid "Support"
+msgstr ""
+
+#: D:\Dropbox\Sebs
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:137
 msgid "Donate"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:132
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:138
 msgid "More WooCommerce Extensions"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:162
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:185
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:215
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:168
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:191
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:221
 msgid "Photos"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:260
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:272
 msgid "Disable photos tab?"
 msgstr ""
 
 #: D:\Dropbox\Sebs
-#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:281
+#: Studio\woocommerce-photos-product-tab\plugin\trunk/woocommerce-photos-product-tab.php:293
 msgid ""
 "requires <a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank"
 "\">WooCommerce</a> to be activated in order to work. Please install and "

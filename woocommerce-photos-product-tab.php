@@ -3,13 +3,18 @@
  * Plugin Name: WooCommerce Photos Product Tab
  * Plugin URI: http://www.sebs-studio.com/wp-plugins/woocommerce-photos-product-tab/
  * Description: Extends WooCommerce to allow you to display all images attached to a product in a new tab on the single product page.
- * Version: 2.1
- * Author: Sebs Studio (Sebastien)
+ * Version: 2.1.2
+ * Author: Sebs Studio
  * Author URI: http://www.sebs-studio.com
+ * Requires at least: 3.1
+ * Tested up to: 3.5.1
  *
  * Text Domain: wc_photos_product_tab
  * Domain Path: /lang/
- *
+ * 
+ * Copyright: © 2013 Sebs Studio.
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
 
 if(!defined('ABSPATH')) exit; // Exit if accessed directly
@@ -127,6 +132,8 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 					return $links;
 				}
 				if($file == WooCommerce_Photo_Product_Tab::$plugin_basefile){
+					$links[] = '<a href="http://docs.sebs-studio.com/user-guide/extension/woocommerce-photos-product-tab/" target="_blank">'.__('Docs', 'wc_photos_product_tab').'</a>';
+					$links[] = '<a href="http://wordpress.org/support/plugin/woocommerce-photos-product-tab" target="_blank">'.__('Support', 'wc_photos_product_tab').'</a>';
 					$links[] = '<a href="http://www.sebs-studio.com/donation/" target="_blank">'.__('Donate', 'wc_photos_product_tab').'</a>';
 					$links[] = '<a href="http://www.sebs-studio.com/wp-plugins/woocommerce-extensions/" target="_blank">'.__('More WooCommerce Extensions', 'wc_photos_product_tab').'</a>';
 				}
@@ -198,7 +205,7 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 			}
 
 			/**
-			 * Write the photo tab panel on the product view page for WC 1.6.6 and below.
+			 * Write the photo tab panel on the product view page.
 			 * In WooCommerce these are handled by templates.
 			 */
 			public function photos_product_tabs_panel(){
@@ -231,12 +238,19 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 							echo '<li>';
 							$woo_light = get_option('woocommerce_enable_lightbox');
 							$photo_light = get_option('woocommerce_product_photo_tab_lightbox');
-							if($woo_light == 'yes' && $photo_light == 'yes'){ echo '<a href="'.wp_get_attachment_url($attachment->ID).'" rel="thumbnails" class="zoom">'; }
+							if($woo_light == 'yes' && $photo_light == 'yes'){
+								if(version_compare(WOOCOMMERCE_VERSION, "2.0", '<')){
+									echo '<a href="'.wp_get_attachment_url($attachment->ID).'" rel="prettyPhoto" class="zoom">';
+								}
+								else{
+									echo '<a href="'.wp_get_attachment_url($attachment->ID).'" rel="thumbnails" class="zoom">';
+								}
+							}
 							echo wp_get_attachment_image($attachment->ID, get_option('woocommerce_product_photo_tab_size'), false, $photo_attr);
 							if($woo_light == 'yes' && $photo_light == 'yes'){ echo '</a>'; }
 							echo '</li>';
 						}
-					  echo '</ul>';
+						echo '</ul>';
 					}
 					if(version_compare(WOOCOMMERCE_VERSION, "2.0", '<')){ echo '</div>'; }
 				}
@@ -255,15 +269,15 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 
 			// Adds the option to disable the photo tab on the product page.
 			function write_photo_tab_panel(){
-		    	echo '<div class="options_group">';
-		    	woocommerce_wp_checkbox( array( 'id' => 'woocommerce_disable_product_photos', 'label' => __('Disable photos tab?', 'wc_photos_product_tab') ) );
-		  		echo '</div>';
-		    }
-		    
-		    function write_photo_tab_panel_save($post_id){
-		    	$woocommerce_disable_product_photos = isset($_POST['woocommerce_disable_product_photos']) ? 'yes' : 'no';
-		    	update_post_meta($post_id, 'woocommerce_disable_product_photos', $woocommerce_disable_product_photos);
-		    }
+				echo '<div class="options_group">';
+				woocommerce_wp_checkbox( array( 'id' => 'woocommerce_disable_product_photos', 'label' => __('Disable photos tab?', 'wc_photos_product_tab') ) );
+				echo '</div>';
+			}
+
+			function write_photo_tab_panel_save($post_id){
+				$woocommerce_disable_product_photos = isset($_POST['woocommerce_disable_product_photos']) ? 'yes' : 'no';
+				update_post_meta($post_id, 'woocommerce_disable_product_photos', $woocommerce_disable_product_photos);
+			}
 		}
 	}
 

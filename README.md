@@ -13,12 +13,14 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 This extension for WooCommerce allows you to display all the images you have attached to a product in a new tab on the single product page.
 
-Select the size of the images you want to display from Thumbnail to Full Size and enable the use of Lightbox/Pretty Photo.
+Select the size of the images you want to display from Thumbnail to Full Size and enable the use of Fancybox/Pretty Photo.
 
 ## Localization
-English (default) - always included. *.po file (default.po) in language folder for translations.
+* English (default) - always included. *.po file (default.po) in language folder for translations.
+* French
+* Brazilian Portuguese by Johnny Bauer.
 
-If you do a translation for your site please send it to me to include as part of the plugin language folder. I'll acknowledge your work here. To send your translation files contact me. (http://www.sebs-studio.com/contact/)
+If you do a translation for the plugin, please send it to me to include as part of the plugin language folder. I'll acknowledge your work here. To send your translation files contact me. (http://www.sebs-studio.com/contact/)
 
 ## Related Plugins
 
@@ -61,6 +63,11 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 3. Photos Tab Settings.
 
 ## Changelog
+
+__2.1.2 - 13/06/2013__
+
+* Added - Support for the use of PrettyPhoto for WooCommerce version 2 and up in the tab.
+* Added - Plugin links to documentation and support forum.
 
 __2.1.1 - 10/06/2013__
 
